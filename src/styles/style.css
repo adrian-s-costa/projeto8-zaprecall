@@ -1,0 +1,48 @@
+body, html{
+    height: 100%;
+}
+  
+
+h1{
+    font-family: 'Righteous', cursive;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.root{
+    height: 100%;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color:#FB6B6B ;
+}
+
+.logo{
+    height: 161px;
+    width: 136px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.indexButton{
+    background: #FFFFFF;
+    color:#D70900;
+    border: 1px solid #D70900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 246px;
+    height: 54px;
+    margin-top: 40px;
+}
+
+.indexButton:hover{
+    background: #D70900;
+    color: #FFFFFF;
+    transition: 1s;
+}
