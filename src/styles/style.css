@@ -19,10 +19,11 @@ h1{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     justify-content: center;
     align-items: center;
     background-color:#FB6B6B ;
+    height: fit-content;
 }
 
 .hidden{
@@ -55,4 +56,117 @@ h1{
     background: #D70900;
     color: #FFFFFF;
     transition: 1s;
+}
+
+.textLogo{
+    display: flex;
+    padding-top: 30px;
+}
+
+.logoQuestions{
+    width: 52px;
+    height: 60px;
+    margin-bottom: 35px;
+}
+
+.question{
+    width: 300px;
+    height: 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.questionsGroup{
+   padding-bottom: 100px;
+}
+
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70px;
+    background: #FFFFFF;
+    position: fixed;
+    bottom: 0px;
+    height: fit-content;
+    
+}
+
+h6{
+    font-size: 16px;
+    font-family: 'Recursive';
+}
+
+.iconPlay{
+    font-size: 20px;
+}
+
+.clickedQuestion{
+    width: 299px;
+    height: 131px;
+    background: #FFFFD5;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 18px 15px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.icon{
+    position: absolute;
+    right: 5px;
+    bottom: 6px;
+    font-size: 24px;
+}
+
+.twice h6{
+    width: 247px;
+    height: 44px;
+    font-family: 'Recursive';
+    font-style: normal;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    color: #FFFFFF;
+    width: 85.17px;
+    height: 37.17px;
+    background: #2FBE34;
+    border-radius: 5px;
+    border: none;
+}
+
+.r{
+    background-color: #FF3030;
+}
+
+.y{
+    background-color: #FF922E;
+}
+
+.answeredr{
+    text-decoration: line-through;
+    color: #FF3030;
+}
+
+.answeredg{
+    color: #2FBE34;
+}
+
+.answeredy{
+    color:#FF922E;
 }

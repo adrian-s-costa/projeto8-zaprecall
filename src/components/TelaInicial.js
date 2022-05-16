@@ -1,22 +1,19 @@
 import "../styles/reset.css";
 import "../styles/style.css";
 import logo from "../Images/logo.png"
+import React from "react";
 
-let classNameIndex = "pageIndex"
 
-export default function TelaInicial(){
-    
+
+
+export default function TelaInicial({setTela}){
+
+
     return(
-        <div className={classNameIndex}>
+        <div className="pageIndex">
             <img src={logo} className="logo" alt="logo"/>
             <h1 className="indexTittle">ZapRecall</h1>
-            <button className="indexButton" onClick={questionScreen}>Iniciar Recall!!</button>
+            <button className="indexButton" onClick={()=>setTela('next')}>Iniciar Recall!!</button>
         </div>
-    )
-}
-
-function questionScreen(){
-    return(
-        <div className={classNameIndex}></div>
     )
 }
